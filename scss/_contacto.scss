@@ -1,0 +1,147 @@
+/*Acá empieza contactos*/
+
+.caja-mala {
+    border:solid 0.20rem ;
+    padding:4rem;
+    display:inline-block;
+    font-size:1.6rem ;
+    width:1rem ;
+    height:1rem;
+    font-family:arial;
+    overflow:visible;
+    background-image:linear-gradient(to left ,grey, rgb(226, 96, 117)) ;
+  }
+  .card {
+    border:solid .1rem pink ;
+    width:20rem ;
+    padding:2rem;
+    position:relative;
+     
+  }
+  
+  .caja-flex {
+    display: flex;
+  }
+  
+  .adulg {
+    border:solid .1rem pink ;
+    width:20rem ;
+    padding:2rem;
+    position:relative;
+  
+  }
+  
+  
+  
+  div {
+  
+    margin-top:50px ;
+    color:antiquewhite;
+    font-weight:bolder;
+  }
+  
+  
+  .card_parrafo {
+    font-size:1rem;
+    margin-bottom:2rem ;
+  }
+  
+  .card_image {
+    width:20rem ;
+    height:20rem ;
+  }
+  .boton {
+    padding :1rem;
+    margin-bottom:5rem ;
+  }
+  
+  .mapa {
+    margin-top:2rem;
+  
+  }
+  
+  
+  footer {
+    color:antiquewhite;
+  }
+  
+  
+  
+  form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+    
+  } 
+  
+  
+    
+  
+  
+  
+  /* media querie para dispositivos moviles medianos contacto*/
+  
+  
+ 
+  @media screen and (max-width:$pantalla-mediana) 
+
+{
+   .caja-flex {
+    display: grid;
+    grid-template-columns:4,1fr ;
+    grid-template-rows: 2,1fr;
+    grid-template-areas:
+    "card1 card2" 
+    "card 3 card 4" ;
+   }
+  .card {
+  
+   width:346px;
+
+  }
+  .card_image {
+    width: 11rem;
+    height:12rem;
+  }
+  
+}
+    .card {
+    
+     width:274px;
+     height:500px ;
+  
+    }
+    .card_image {
+      height: 150px;
+    }
+    
+  
+  
+  /*media querie para dispositivos pequeños contacto */
+  
+  @media screen and (max-width:460px) 
+  {
+    .caja-flex {
+    display: flex;
+    flex-direction: column;
+    }
+    .card {
+   
+     
+      width: 20rem;
+      height: 22rem;
+      padding: 2rem;
+      
+  
+    }
+  
+    .card_image {
+    width:400px;
+    height: 283px;
+    }
+    .mapa {
+    width: 352px;
+    }
+  }
