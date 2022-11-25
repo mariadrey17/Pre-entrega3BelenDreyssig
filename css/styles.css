@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Parte del Index desktop  */
 * {
   padding: 0;
@@ -20,6 +21,14 @@ h1 {
   animation-iteration-count: infinite;
 }
 
+h2 {
+  color: rgb(235, 229, 230);
+}
+
+h3 {
+  color: rgb(240, 239, 239);
+}
+
 @keyframes aparecer {
   0% {
     opacity: 0;
@@ -28,10 +37,55 @@ h1 {
     opacity: 1;
   }
 }
+.video-escuela {
+  width: 800px;
+  height: 600px;
+}
+
+.grid div {
+  border: solid 2px rgb(245, 245, 245);
+}
+
+.item2 {
+  background-image: linear-gradient(to right, grey, rgb(226, 96, 117));
+}
+
+.item3 {
+  background-image: linear-gradient(to right, grey, rgb(226, 96, 117));
+}
+
+/*Inicio para dispositivos medianos */
+@media screen and (max-width: 768px) {
+  .video-escuela {
+    width: 400px;
+    height: 300px;
+  }
+}
+/*Inicio dispositivos pequeños*/
+@media screen and (max-width: 460px) {
+  .video-escuela {
+    width: 350px;
+    height: 300px;
+  }
+}
 body {
   background-color: rgba(23, 21, 21, 0.875);
 }
 
+footer {
+  color: rgb(230, 230, 174);
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: pink;
+  }
+}
+@media screen and (max-width: 460px) {
+  body {
+    background-color: rgb(104, 61, 68);
+  }
+}
 header {
   background-image: url(../img/fondo.jpg);
   background-size: cover;

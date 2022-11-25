@@ -2,4 +2,22 @@ body {
     background-color:rgba(23, 21, 21, 0.875);
     }
     
-    
+footer {
+    color:$p-color
+}    
+
+
+
+@media screen and (max-width:$pantalla-mediana) {
+    body {
+   background-color:pink ;
+    }
+ }
+
+
+@media screen and (max-width :$pantalla-pequeña) 
+{
+    body {
+   background-color:rgb(104, 61, 68) ;
+    }
+ }  
