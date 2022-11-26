@@ -5,6 +5,7 @@
      grid-template-columns: 4, 1fr;
      grid-template-rows: 4, 1fr;
      grid-template-areas: "1 2";
+     @include border (solid,2px, blanchedalmond);
      border: solid 2px rgb(245, 245, 245);
      }
           
@@ -26,15 +27,14 @@
 
 
         @media  screen  and (max-width :$pantalla-mobile) {
-          .docentes {
+     
            
-     .docentes {   display: grid;
-      grid-template-columns: 1, 1fr;
-      grid-template-rows: 12, 1fr;
-      grid-template-areas: "1 "
-                           "2";
-      border: solid 2px rgb(245, 245, 245);
-      }
+     .docentes { 
+       display: flex;
+       flex-direction: column;
+                          
+      
+     }
            }
             
-        }
+        

@@ -1,7 +1,8 @@
 /*Acá empieza contactos*/
 
 .caja-mala {
-    border:solid 0.20rem ;
+  @include border (solid,0.20rem ) ;
+   
     padding:4rem;
     display:inline-block;
     font-size:1.6rem ;
@@ -12,7 +13,8 @@
     background-image:linear-gradient(to left ,grey, rgb(226, 96, 117)) ;
   }
   .card {
-    border:solid .1rem pink ;
+    @include border  (solid,1rem,pink );
+    
     width:20rem ;
     padding:2rem;
     position:relative;
@@ -24,7 +26,8 @@
   }
   
   .adulg {
-    border:solid .1rem pink ;
+    @include border ( solid ,1rem,pink);
+    border:solid 1rem pink ;
     width:20rem ;
     padding:2rem;
     position:relative;
@@ -131,7 +134,7 @@
     }
     .card {
    
-      @include sizes (20rem,22rem );
+      @include sizes (20rem,33rem );
       
       padding: 2rem;
       
