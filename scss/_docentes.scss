@@ -1,0 +1,40 @@
+
+/*empieza docentes*/
+
+     .docentes {   display: grid;
+     grid-template-columns: 4, 1fr;
+     grid-template-rows: 4, 1fr;
+     grid-template-areas: "1 2";
+     border: solid 2px rgb(245, 245, 245);
+     }
+          
+          
+  
+    
+     h1 {
+      color: blanchedalmond;
+     }
+  
+     .foto-profe {
+  
+      @include sizes (12rem ,12rem);
+
+}
+
+        /*Docentes Media query dispositivos pequeños*/
+
+
+
+        @media  screen  and (max-width :$pantalla-pequeña) {
+          .docentes {
+           
+     .docentes {   display: grid;
+      grid-template-columns: 1, 1fr;
+      grid-template-rows: 12, 1fr;
+      grid-template-areas: "1 "
+                           "2";
+      border: solid 2px rgb(245, 245, 245);
+      }
+           }
+            
+        }

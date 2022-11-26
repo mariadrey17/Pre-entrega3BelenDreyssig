@@ -123,7 +123,7 @@
   
   /*media querie para dispositivos pequeños contacto */
   
-  @media screen and (max-width:460px) 
+  @media screen and (max-width:$pantalla-small) 
   {
     .caja-flex {
     display: flex;
