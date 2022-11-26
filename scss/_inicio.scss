@@ -42,8 +42,8 @@
     }
   }
   .video-escuela {
-    width: 800px; 
-    height: 600px;
+    @include sizes (800px,600px) ;
+    
   }
   
  
@@ -64,17 +64,16 @@
   
   @media screen and (max-width:$pantalla-mediana) {
     .video-escuela {
-      width: 400px;
-      height:300px;
-     
+      @include sizes (400px,300px) ;
+      
      }
 }
   
 /*Inicio dispositivos pequeños*/
 @media screen and (max-width:$pantalla-pequeña) {
-  .video-escuela {       
-    width: 350px;
-    height:300px;
+  .video-escuela { 
+    @include sizes (350px,300px) ;
+   
 }
 
 }

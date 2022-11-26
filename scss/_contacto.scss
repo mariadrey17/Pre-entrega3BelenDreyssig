@@ -47,8 +47,9 @@
   }
   
   .card_image {
-    width:20rem ;
-    height:20rem ;
+
+    @include sizes (20rem,20rem) ;
+   
   }
   .boton {
     padding :1rem;
@@ -102,15 +103,16 @@
 
   }
   .card_image {
-    width: 11rem;
-    height:12rem;
+    @include sizes (11rem,12rem) ;
+    
   }
   
 }
     .card {
+
+      @include sizes (274px,500px) ;
     
-     width:274px;
-     height:500px ;
+     
   
     }
     .card_image {
@@ -129,19 +131,18 @@
     }
     .card {
    
-     
-      width: 20rem;
-      height: 22rem;
+      @include sizes (20rem,22rem );
+      
       padding: 2rem;
       
   
     }
   
     .card_image {
-    width:400px;
-    height: 283px;
+      @include sizes (400px,283px); 
+     }
     }
     .mapa {
     width: 352px;
     }
-  }
+  
