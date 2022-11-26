@@ -59,8 +59,7 @@
      .card-muestra{
       width:181px ;
       height:500px;
-      margin-bottom:50px ;
-      margin-right: 65px;
+      @extend .botones-generales;
     
       
       }

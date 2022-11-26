@@ -50,7 +50,7 @@
    
     .grid div  {
   
-    border:solid 2px rgb(245, 245, 245)
+    @include border(solid ,2px ,rgb(245, 245, 245));
     }
   .item2 {
     background-image: $bg-item;

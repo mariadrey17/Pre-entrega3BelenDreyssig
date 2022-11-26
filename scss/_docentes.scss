@@ -30,8 +30,7 @@
      
            
      .docentes { 
-       display: flex;
-       flex-direction: column;
+       @extend.columnas;
                           
       
      }

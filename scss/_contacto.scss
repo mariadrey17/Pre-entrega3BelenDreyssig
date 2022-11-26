@@ -1,7 +1,7 @@
 /*Acá empieza contactos*/
 
 .caja-mala {
-  @include border (solid,0.20rem ) ;
+  @include border (solid,0.20rem,pink ) ;
    
     padding:4rem;
     display:inline-block;
@@ -47,7 +47,14 @@
   .card_parrafo {
     font-size:1rem;
     margin-bottom:2rem ;
+    color: rgb(82, 82, 82);
+    
   }
+
+  .card_parrafo--grande {
+    color: rgb(82, 82, 82);
+  }
+  
   
   .card_image {
 
@@ -55,9 +62,7 @@
    
   }
   .boton {
-    padding :1rem;
-    margin-bottom:5rem ;
-  }
+   @extend .botones-generales;}
   
   .mapa {
     margin-top:2rem;
@@ -129,8 +134,7 @@
   @media screen and (max-width:$pantalla-mobile) 
   {
     .caja-flex {
-    display: flex;
-    flex-direction: column;
+    @extend.columnas ;
     }
     .card {
    
