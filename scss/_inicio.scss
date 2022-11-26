@@ -70,7 +70,7 @@
 }
   
 /*Inicio dispositivos pequeños*/
-@media screen and (max-width:$pantalla-celular) {
+@media screen and (max-width:$pantalla-mobile) {
   .video-escuela { 
     @include sizes (350px,300px) ;
    

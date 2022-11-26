@@ -30,7 +30,7 @@ table {
   
   /*clases para media query pequeños*/
   
-  @media screen and (max-width:$pantalla-celular) 
+  @media screen and (max-width:$pantalla-mobile) 
   {
     .foto-clase {
       width:300px ;

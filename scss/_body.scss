@@ -1,5 +1,5 @@
 body {
-    background-color:rgba(23, 21, 21, 0.875);
+    background-color:$bg-body;
     }
     
 footer {
@@ -15,7 +15,7 @@ footer {
  }
 
 
-@media screen and (max-width :$pantalla-mobile) 
+@media screen and (max-width:$pantalla-mobile) 
 {
     body {
    background-color:rgb(104, 61, 68) ;
