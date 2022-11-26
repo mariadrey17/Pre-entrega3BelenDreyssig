@@ -1,11 +1,4 @@
-/* Error: Undefined variable.
- *    ,
- * 15 |   border:solid $px  $color;
- *    |                ^^^
- *    '
- *   scss\_variables.scss 15:16  border()
- *   scss\_docentes.scss 8:6     @import
- *   scss\styles.scss 5:9        root stylesheet */
+
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
