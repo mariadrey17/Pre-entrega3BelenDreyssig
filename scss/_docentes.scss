@@ -28,10 +28,10 @@
 
         @media  screen  and (max-width :$pantalla-mobile) {
      
-           
-     .docentes { 
-      @extend.columnas;
-        }
+      .docentes { 
+          display: flex;
+          flex-direction: column;
+    
+            }
            }
-            
         
