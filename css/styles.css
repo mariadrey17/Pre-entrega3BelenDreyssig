@@ -229,9 +229,8 @@ ol {
   }
 }
 /*Acá empieza contactos*/
-.carouselslide {
-  width: 850px;
-  height: 750px;
+.carousel-inner {
+  width: 69%;
 }
 
 .caja-mala {
