@@ -1,14 +1,14 @@
-/* Error: From line 4, column 1 of scss\_globales.scss: 
+/* Error: From line 3, column 1 of scss\_globales.scss: 
  *   ╷
- * 4 │ .botones-generales {
- *   │ ^^^^^^^^^^^^^^^^^^^
+ * 3 │ .columnas {
+ *   │ ^^^^^^^^^^
  *   ╵
  * You may not @extend selectors across media queries.
- *    ,
- * 61 |     @extend.botones-generales;
- *    |     ^^^^^^^^^^^^^^^^^^^^^^^^^
- *    '
- *   scss\_muestras.scss 61:5  root stylesheet */
+ *     ,
+ * 161 |     @extend.columnas;
+ *     |     ^^^^^^^^^^^^^^^^
+ *     '
+ *   scss\_contacto.scss 161:5  root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -18,5 +18,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: From line 4, column 1 of scss\\_globales.scss: \a   \2577 \a 4 \2502  .botones-generales {\d\a   \2502  ^^^^^^^^^^^^^^^^^^^\a   \2575 \aYou may not @extend selectors across media queries.\a    \2577 \a 61 \2502      @extend.botones-generales;\d\a    \2502      ^^^^^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   scss\\_muestras.scss 61:5  root stylesheet";
+  content: "Error: From line 3, column 1 of scss\\_globales.scss: \a   \2577 \a 3 \2502  .columnas {\d\a   \2502  ^^^^^^^^^^\a   \2575 \aYou may not @extend selectors across media queries.\a     \2577 \a 161 \2502      @extend.columnas;\d\a     \2502      ^^^^^^^^^^^^^^^^\a     \2575 \a   scss\\_contacto.scss 161:5  root stylesheet";
 }

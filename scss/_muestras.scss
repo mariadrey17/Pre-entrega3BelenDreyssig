@@ -51,14 +51,17 @@
 
  
    .tienda {
-    width:318px ;
-    height: 2000px ;
+
+    @include sizes (318px,2000px);
+    
     margin-top:10px ;
     
     }
-   .card-muestra{
+   .card-muestra {
     @include sizes (272px,661px);
-    @extend.botones-generales;
+
+    padding :1rem;
+    margin-bottom:5rem ;
   
      }
 
