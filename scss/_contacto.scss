@@ -1,5 +1,8 @@
 /*Acá empieza contactos*/
-
+.carouselslide {
+width: 850px;
+height: 750px;
+}
 
 .caja-mala {
   @include border (solid,0.20rem,pink ) ;
