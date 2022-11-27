@@ -52,15 +52,19 @@
    
      .tienda {
       width:318px ;
-      height: 1770px ;
+      height: 2000px ;
       margin-top:10px ;
       
       }
      .card-muestra{
-      width:181px ;
-      height:500px;
+      @include sizes (272px,661px);
       @extend.botones-generales;
     
+       }
+
+       .caja-tienda {
+        width:318px ;
+        height: 2000px ;
        }
   
   
