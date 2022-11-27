@@ -1,10 +1,4 @@
-/* Error: The target selector was not found.
- * Use "@extend .columnas !optional" to avoid this error.
- *    ,
- * 33 |        @extend.columnas;
- *    |        ^^^^^^^^^^^^^^^^
- *    '
- *   scss\_docentes.scss 33:8  root stylesheet */
+
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -14,5 +8,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: The target selector was not found.\aUse "@extend .columnas !optional" to avoid this error.\a    \2577 \a 33 \2502         @extend.columnas;\d\a    \2502         ^^^^^^^^^^^^^^^^\a    \2575 \a   scss\\_docentes.scss 33:8  root stylesheet';
-}
+  
+ }
