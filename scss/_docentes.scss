@@ -29,8 +29,7 @@
         @media  screen  and (max-width :$pantalla-mobile) {
      
       .docentes { 
-          display: flex;
-          flex-direction: column;
+       @extend.columnas;
     
             }
            }
