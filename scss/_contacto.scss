@@ -94,7 +94,7 @@ height: 750px;
   
 .contenedor-opciones 
 {
-  @extend.flexcolumnas;
+  @extend.columnas;
   align-items: center;
 }
 .contenedor-labels {
@@ -158,7 +158,7 @@ height: 750px;
   @media screen and (max-width:$pantalla-mobile) 
   {
     .caja-flex {
-    @extend.flexcolumnas;
+    @extend.columnas;
     }
     .card {
    
