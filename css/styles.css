@@ -1,12 +1,12 @@
 /* Error: From line 3, column 1 of scss\_globales.scss: 
  *   ╷
- * 3 │ .columnas {
- *   │ ^^^^^^^^^^
+ * 3 │ .flex-column {
+ *   │ ^^^^^^^^^^^^^
  *   ╵
  * You may not @extend selectors across media queries.
  *    ,
- * 32 |        @extend.columnas;
- *    |        ^^^^^^^^^^^^^^^^
+ * 32 |        @extend.flex-column;
+ *    |        ^^^^^^^^^^^^^^^^^^^
  *    '
  *   scss\_docentes.scss 32:8  root stylesheet */
 
@@ -18,5 +18,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: From line 3, column 1 of scss\\_globales.scss: \a   \2577 \a 3 \2502  .columnas {\d\a   \2502  ^^^^^^^^^^\a   \2575 \aYou may not @extend selectors across media queries.\a    \2577 \a 32 \2502         @extend.columnas;\d\a    \2502         ^^^^^^^^^^^^^^^^\a    \2575 \a   scss\\_docentes.scss 32:8  root stylesheet";
+  content: "Error: From line 3, column 1 of scss\\_globales.scss: \a   \2577 \a 3 \2502  .flex-column {\d\a   \2502  ^^^^^^^^^^^^^\a   \2575 \aYou may not @extend selectors across media queries.\a    \2577 \a 32 \2502         @extend.flex-column;\d\a    \2502         ^^^^^^^^^^^^^^^^^^^\a    \2575 \a   scss\\_docentes.scss 32:8  root stylesheet";
 }

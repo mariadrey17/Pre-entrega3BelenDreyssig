@@ -19,7 +19,7 @@
 
 .galeria {
   /*puedo hacer algo con grid en galeria*/
-  @extend.columnas;
+  @extend.flex-column;
   
 
   width: 536px;
