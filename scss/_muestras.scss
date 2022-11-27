@@ -3,84 +3,84 @@
 /*acá empieza Muestras */
 
 .grilla {
-    display: grid;
-   
-    }
-  
-  
-  
-  
-  
-  .Item5 {
-    display: flex;
-    justify-content: center;
-    background-image:linear-gradient(to left ,grey, rgb(226, 96, 117)) ;
+  display: grid;
+ 
   }
-  
-  .galeria {
-    /*puedo hacer algo con grid en galeria*/
-    display: flex;
-    flex-direction: column;
-    
-  
-    width: 536px;
-    height:363px;
-  }
-  
-  /* media querie para dispositivos moviles medianos muestras*/
-  
-  @media screen and (max-width :$pantalla-mediana) {
-      .galeria {
-     
-      width:348px;
-      
-    
-      }
-  
-   
-    
-      }
-    
-  
-  
-  
-  /*media querie para dispositivos pequeños muestras  */
-   
-   /*tienda*/
-  @media screen and (max-width: $pantalla-mobile) {
-  
-   
-     .tienda {
-      width:318px ;
-      height: 2000px ;
-      margin-top:10px ;
-      
-      }
-     .card-muestra{
-      @include sizes (272px,661px);
-      @extend.botones-generales;
-    
-       }
 
-       .caja-tienda {
-        width:318px ;
-        height: 2000px ;
-       }
+
+
+
+
+.Item5 {
+  display: flex;
+  justify-content: center;
+  background-image:linear-gradient(to left ,grey, rgb(226, 96, 117)) ;
+}
+
+.galeria {
+  /*puedo hacer algo con grid en galeria*/
+  display: flex;
+  flex-direction: column;
   
-  
-  
-      .galeria
-      {  
-      width:105px;
-      height:106px;
-     
-     
-      }
-     
+
+  width: 536px;
+  height:363px;
+}
+
+/* media querie para dispositivos moviles medianos muestras*/
+
+@media screen and (max-width :$pantalla-mediana) {
+    .galeria {
+   
+    width:348px;
     
-      .card-foto {
-      width:50px ;
-      height:50px;
-      } 
+  
+    }
+
+ 
+  
+    }
+  
+
+
+
+/*media querie para dispositivos pequeños muestras  */
+ 
+ /*tienda*/
+@media screen and (max-width: $pantalla-mobile) {
+
+ 
+   .tienda {
+    width:318px ;
+    height: 2000px ;
+    margin-top:10px ;
     
     }
+   .card-muestra{
+    @include sizes (272px,661px);
+    @extend.botones-generales;
+  
+     }
+
+     .caja-tienda {
+      @include sizes (318px,2000px);
+     
+     }
+
+
+
+    .galeria
+    {  
+    width:105px;
+    height:106px;
+   
+   
+    }
+   
+  
+    .card-foto {
+    width:50px ;
+    height:50px;
+    } 
+  
+  }
