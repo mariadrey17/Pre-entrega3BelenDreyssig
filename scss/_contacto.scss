@@ -1,6 +1,6 @@
 /*Acá empieza contactos*/
 .carousel-inner {
-  width: 69%;
+  width: 65%;
 
 }
 
@@ -157,6 +157,11 @@
   
   @media screen and (max-width:$pantalla-mobile) 
   {
+    .carousel-inner {
+      width: 79%;
+    
+    }
+
     .caja-flex {
     @include flex-column;
     }

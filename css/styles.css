@@ -230,7 +230,7 @@ ol {
 }
 /*Acá empieza contactos*/
 .carousel-inner {
-  width: 69%;
+  width: 65%;
 }
 
 .caja-mala {
@@ -345,6 +345,9 @@ form {
 
 /*media querie para dispositivos pequeños contacto */
 @media screen and (max-width: 460px) {
+  .carousel-inner {
+    width: 79%;
+  }
   .caja-flex {
     display: flex;
     flex-direction: column;
