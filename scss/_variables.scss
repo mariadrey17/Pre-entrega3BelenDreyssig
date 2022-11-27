@@ -11,6 +11,12 @@ $pantalla-mediana:768px;
 $pantala-grande:auto;
 $bg-item:linear-gradient(to right ,grey,rgb(226, 96, 117));
    /*mixin*/
+   
+@mixin flex-column {
+    
+  display:flex;
+  flex-direction:column;
+      }
 
    @mixin border ($solid,$size,$color ) {
   border:solid $size $color;

@@ -1,8 +1,9 @@
 /*Acá empieza contactos*/
-.carouselslide {
-width: 850px;
-height: 750px;
+.carousel-inner {
+  width: 74%;
+
 }
+
 
 .caja-mala {
   @include border (solid,0.20rem,pink ) ;
@@ -66,8 +67,7 @@ height: 750px;
    
   }
   .boton {
-    padding :1rem;
-    margin-bottom:5rem ;    
+    @extend.botones-generales
   }
   
   .mapa {
@@ -94,7 +94,7 @@ height: 750px;
   
 .contenedor-opciones 
 {
-  @extend.flex-columna;
+ @include flex-column;
   align-items: center;
 }
 .contenedor-labels {
@@ -158,7 +158,7 @@ height: 750px;
   @media screen and (max-width:$pantalla-mobile) 
   {
     .caja-flex {
-    @extend.flex-columna;
+    @include flex-column;
     }
     .card {
    
