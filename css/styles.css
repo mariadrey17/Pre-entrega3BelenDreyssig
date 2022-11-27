@@ -1,5 +1,4 @@
 
-
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
       "Droid Sans Mono", monospace, monospace;
@@ -8,5 +7,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-
+  content: 'Error: The target selector was not found.\aUse "@extend .botones-generales !optional" to avoid this error.\a    \2577 \a 62 \2502        @extend.botones-generales;\d\a    \2502        ^^^^^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   scss\\_muestras.scss 62:7  root stylesheet';
 }
