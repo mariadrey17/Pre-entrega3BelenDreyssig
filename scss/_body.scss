@@ -1,6 +1,10 @@
 body {
     background-color:$bg-body;
     }
+
+.nav-item:first-of-type {
+    background-color:rgb(252, 212, 225);
+    }
     
 footer {
     color:$p-color
