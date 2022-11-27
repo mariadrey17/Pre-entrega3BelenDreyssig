@@ -11,6 +11,7 @@ $pantalla-mediana:768px;
 $pantala-grande:auto;
 $bg-item:linear-gradient(to right ,grey,rgb(226, 96, 117));
    /*mixin*/
+
    @mixin border ($solid,$size,$color ) {
   border:solid $size $color;
    }

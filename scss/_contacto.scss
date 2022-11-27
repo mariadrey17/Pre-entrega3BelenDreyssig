@@ -88,7 +88,7 @@
   
 .contenedor-opciones 
 {
-  @include flex-column;
+  @extend.columnas;
   align-items: center;
 }
 .contenedor-labels {
