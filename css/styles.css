@@ -44,6 +44,9 @@ header {
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  height: 50rem;
+  background-image: url(../img/navidad.webp);
+  height: 50rem;
 }
 
 /* Parte del Index desktop  */
