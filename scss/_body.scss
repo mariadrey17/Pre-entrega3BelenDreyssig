@@ -8,7 +8,17 @@ img {
 }
 
 body {
-    background-color:$bg-body;
+    @if $fiesta==pascuas {
+        background-color: gold ;
+    
+        }@else if $fiesta==padre {
+            background-color:blue;
+        }@else if $fiesta==navidad{
+            background-image:linear-gradient(to left ,rgb(121, 8, 8), rgb(3, 32, 3));}
+        @else  {
+        background-color:grey;  
+            
+        }
     }
 
 .nav-item:first-of-type {

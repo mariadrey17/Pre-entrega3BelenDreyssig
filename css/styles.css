@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /*mixin*/
 /*mixin sizes*/
+/*variable para fiestas condicionales*/
 /*extends*/
 .botones-generales, .boton, .card-muestra {
   padding: 1rem;
@@ -17,7 +18,7 @@ img {
 }
 
 body {
-  background-color: rgba(23, 21, 21, 0.875);
+  background-image: linear-gradient(to left, rgb(121, 8, 8), rgb(3, 32, 3));
 }
 
 .nav-item:first-of-type {
