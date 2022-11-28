@@ -44,11 +44,20 @@ header {
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  height: 50rem;
   background-image: url(../img/navidad.webp);
   height: 50rem;
 }
 
+@media screen and (max-width: 768px) {
+  header {
+    background-image: url(../img/navidadmediana.jpeg);
+  }
+}
+@media screen and (max-width: 460px) {
+  header {
+    background-image: url(../img/navidadpequeña.jpeg);
+  }
+}
 /* Parte del Index desktop  */
 * {
   padding: 0;

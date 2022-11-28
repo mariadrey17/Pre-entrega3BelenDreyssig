@@ -3,7 +3,7 @@ header {
     background-size: cover;
     background-attachment:fixed;
     background-repeat:no-repeat ;
-    height: 50rem;
+  
     @if $fiesta==pascuas {
         background-image:url(../img/pascuas.jpg) ;
     
@@ -18,3 +18,27 @@ header {
         }
    
     }
+
+    @media screen  and (max-width:$pantalla-mediana) {
+        header {
+                
+            @if $fiesta==navidad{
+               background-image:url(../img/navidadmediana.jpeg);
+            }@else { background-image: url(../img/fondo.jpg);
+    }
+   } 
+        
+    }
+
+    
+    @media screen and (max-width :$pantalla-mobile) 
+    {
+    
+        header {
+                
+            @if $fiesta==navidad{
+               background-image:url(../img/navidadpequeña.jpeg);
+            }@else { background-image: url(../img/fondo.jpg);
+    }
+   }
+     }  
