@@ -1,44 +1,56 @@
 header {
-    background-image:url(../img/fondo.jpg) ;
+    background-image: url(../img/fondo.jpg);
     background-size: cover;
-    background-attachment:fixed;
-    background-repeat:no-repeat ;
-  /*condicionales*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    /*condicionales*/
     @if $fiesta==pascuas {
-        background-image:url(../img/pascuas.jpg) ;
-    
-        }@else if $fiesta==padre {
-            background-image: url(../img/fatherday.jpg);
-            height: 50rem;
-        }@else if $fiesta==navidad{
-            background-image:url(../img/navidad.webp);
-            height: 50rem;}
-        @else  {
-       background-image: url(../img/fondo.jpg);
+        background-image: url(../img/pascuas.jpg);
+
+    }
+
+    @else if $fiesta==padre {
+        background-image: url(../img/fatherday.jpg);
+        height: 50rem;
+    }
+
+    @else if $fiesta==navidad {
+        background-image: url(../img/navidad.webp);
+        height: 50rem;
+    }
+
+    @else {
+        background-image: url(../img/fondo.jpg);
+    }
+
+}
+
+@media screen and (max-width:$pantalla-mediana) {
+    header {
+
+        @if $fiesta==navidad {
+            background-image: url(../img/navidadmediana.jpeg);
         }
-   
+
+        @else {
+            background-image: url(../img/fondo.jpg);
+        }
     }
 
-    @media screen  and (max-width:$pantalla-mediana) {
-        header {
-                
-            @if $fiesta==navidad{
-               background-image:url(../img/navidadmediana.jpeg);
-            }@else { background-image: url(../img/fondo.jpg);
-    }
-   } 
-        
-    }
+}
 
-    
-    @media screen and (max-width :$pantalla-mobile) 
-    {
-    
-        header {
-                
-            @if $fiesta==navidad{
-               background-image:url(../img/navidadpequeña.jpeg);
-            }@else { background-image: url(../img/fondo.jpg);
+
+@media screen and (max-width :$pantalla-mobile) {
+
+    header {
+
+        @if $fiesta==navidad {
+            background-image: url(../img/navidadpequeña.jpeg);
+        }
+
+        @else {
+            background-image: url(../img/fondo.jpg);
+        }
     }
-   }
-     }  
+}
