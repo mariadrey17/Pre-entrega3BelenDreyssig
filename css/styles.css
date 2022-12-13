@@ -76,9 +76,12 @@ h1 {
 }
 
 h1 {
-  animation-duration: 2s;
-  animation-name: aparecer;
-  animation-iteration-count: infinite;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 h2 {
@@ -87,6 +90,15 @@ h2 {
 
 h3 {
   color: rgb(240, 239, 239);
+}
+
+@-webkit-keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes aparecer {
@@ -378,6 +390,4 @@ form {
 }
 .mapa {
   width: 352px;
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
